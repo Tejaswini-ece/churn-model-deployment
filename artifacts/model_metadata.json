@@ -1,0 +1,36 @@
+{
+  "model_version": "1.0.0",
+  "trained_at_utc": "2026-10-24T17:20:04.970938+00:00",
+  "dataset_sha256": "88be4b93fbe0cc83421af1c503794c97c342eca914c1576db7c276e61d61358a",
+  "dataset_rows_after_cleaning": 7043,
+  "training_rows": 4225,
+  "validation_rows": 1409,
+  "test_rows": 1409,
+  "best_parameters": {
+    "classifier__C": 10.0
+  },
+  "cross_validation_roc_auc": 0.8482551973181357,
+  "decision_threshold": 0.30000000000000004,
+  "threshold_selection_validation_cost": 638.0,
+  "missed_churn_cost_assumption": 5.0,
+  "unnecessary_offer_cost_assumption": 1.0,
+  "metrics": {
+    "accuracy": 0.6586231369765791,
+    "precision": 0.43337484433374845,
+    "recall": 0.93048128342246,
+    "f1": 0.5913338997451147,
+    "roc_auc": 0.8419540675295151,
+    "test_business_cost": 585.0,
+    "true_negatives": 580,
+    "false_positives": 455,
+    "false_negatives": 26,
+    "true_positives": 348
+  },
+  "library_versions": {
+    "python": "3.14.2",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0"
+  }
+}

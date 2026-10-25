@@ -1,0 +1,227 @@
+{
+  "gender": {
+    "type": "categorical",
+    "proportions": {
+      "Male": 0.504756495811444,
+      "Female": 0.495243504188556,
+      "__OTHER__": 0.0
+    }
+  },
+  "SeniorCitizen": {
+    "type": "numeric",
+    "edges": [
+      null,
+      null
+    ],
+    "proportions": [
+      1.0
+    ]
+  },
+  "Partner": {
+    "type": "categorical",
+    "proportions": {
+      "No": 0.5169672014766434,
+      "Yes": 0.4830327985233565,
+      "__OTHER__": 0.0
+    }
+  },
+  "Dependents": {
+    "type": "categorical",
+    "proportions": {
+      "No": 0.7004117563538265,
+      "Yes": 0.2995882436461735,
+      "__OTHER__": 0.0
+    }
+  },
+  "tenure": {
+    "type": "numeric",
+    "edges": [
+      null,
+      2.0,
+      6.0,
+      12.0,
+      20.0,
+      29.0,
+      40.0,
+      50.0,
+      60.0,
+      69.0,
+      null
+    ],
+    "proportions": [
+      0.08859860854749396,
+      0.10606275734772114,
+      0.09910549481754934,
+      0.10478489280136305,
+      0.0979696152207866,
+      0.1029390884566236,
+      0.09200624733778219,
+      0.0979696152207866,
+      0.10464290785176772,
+      0.10592077239812579
+    ]
+  },
+  "PhoneService": {
+    "type": "categorical",
+    "proportions": {
+      "Yes": 0.9031662643759761,
+      "No": 0.09683373562402385,
+      "__OTHER__": 0.0
+    }
+  },
+  "MultipleLines": {
+    "type": "categorical",
+    "proportions": {
+      "No": 0.48132897912821243,
+      "Yes": 0.42183728524776376,
+      "No phone service": 0.09683373562402385,
+      "__OTHER__": 0.0
+    }
+  },
+  "InternetService": {
+    "type": "categorical",
+    "proportions": {
+      "Fiber optic": 0.4395854039471816,
+      "DSL": 0.34374556297032516,
+      "No": 0.21666903308249325,
+      "__OTHER__": 0.0
+    }
+  },
+  "OnlineSecurity": {
+    "type": "categorical",
+    "proportions": {
+      "No": 0.4966633536845094,
+      "Yes": 0.2866676132329973,
+      "No internet service": 0.21666903308249325,
+      "__OTHER__": 0.0
+    }
+  },
+  "OnlineBackup": {
+    "type": "categorical",
+    "proportions": {
+      "No": 0.43844952435041884,
+      "Yes": 0.3448814425670879,
+      "No internet service": 0.21666903308249325,
+      "__OTHER__": 0.0
+    }
+  },
+  "DeviceProtection": {
+    "type": "categorical",
+    "proportions": {
+      "No": 0.43944341899758627,
+      "Yes": 0.3438875479199205,
+      "No internet service": 0.21666903308249325,
+      "__OTHER__": 0.0
+    }
+  },
+  "TechSupport": {
+    "type": "categorical",
+    "proportions": {
+      "No": 0.4931137299446259,
+      "Yes": 0.2902172369728809,
+      "No internet service": 0.21666903308249325,
+      "__OTHER__": 0.0
+    }
+  },
+  "StreamingTV": {
+    "type": "categorical",
+    "proportions": {
+      "No": 0.3989777083629135,
+      "Yes": 0.38435325855459324,
+      "No internet service": 0.21666903308249325,
+      "__OTHER__": 0.0
+    }
+  },
+  "StreamingMovies": {
+    "type": "categorical",
+    "proportions": {
+      "No": 0.39542808462303,
+      "Yes": 0.3879028822944768,
+      "No internet service": 0.21666903308249325,
+      "__OTHER__": 0.0
+    }
+  },
+  "Contract": {
+    "type": "categorical",
+    "proportions": {
+      "Month-to-month": 0.5501916796819537,
+      "Two year": 0.24066448956410622,
+      "One year": 0.20914383075394008,
+      "__OTHER__": 0.0
+    }
+  },
+  "PaperlessBilling": {
+    "type": "categorical",
+    "proportions": {
+      "Yes": 0.5922192247621753,
+      "No": 0.4077807752378248,
+      "__OTHER__": 0.0
+    }
+  },
+  "PaymentMethod": {
+    "type": "categorical",
+    "proportions": {
+      "Electronic check": 0.3357944057929859,
+      "Mailed check": 0.22887973874769274,
+      "Bank transfer (automatic)": 0.21922476217520942,
+      "Credit card (automatic)": 0.2161010932841119,
+      "__OTHER__": 0.0
+    }
+  },
+  "MonthlyCharges": {
+    "type": "numeric",
+    "edges": [
+      null,
+      20.05,
+      25.05,
+      45.85,
+      58.83000000000002,
+      70.35,
+      79.1,
+      85.5,
+      94.25,
+      102.6,
+      null
+    ],
+    "proportions": [
+      0.09314212693454493,
+      0.10648871219650717,
+      0.09981541956552606,
+      0.10052534431350277,
+      0.09967343461593071,
+      0.10009938946471673,
+      0.0999574045151214,
+      0.09938946471674003,
+      0.10038335936390742,
+      0.10052534431350277
+    ]
+  },
+  "TotalCharges": {
+    "type": "numeric",
+    "edges": [
+      null,
+      84.6,
+      267.07,
+      551.9950000000001,
+      944.1700000000001,
+      1397.475,
+      2048.9500000000003,
+      3141.1300000000015,
+      4475.41,
+      5976.640000000001,
+      null
+    ],
+    "proportions": [
+      0.09997155858930602,
+      0.10011376564277588,
+      0.09997155858930602,
+      0.09997155858930602,
+      0.09997155858930602,
+      0.09997155858930602,
+      0.09997155858930602,
+      0.09997155858930602,
+      0.09997155858930602,
+      0.10011376564277588
+    ]
+  }
+}
